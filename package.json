@@ -4,7 +4,7 @@
   "description": "Express router that defines URL paths based primarily on the views directory structure",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,13 @@
   "homepage": "https://github.com/reykjavikingur/atomic-view-router#readme",
   "dependencies": {
     "promise": "^8.0.1"
+  },
+  "peerDependencies": {
+    "express": "4.x"
+  },
+  "devDependencies": {
+    "express": "^4.16.2",
+    "mocha": "^5.0.1",
+    "should": "^13.2.1"
   }
 }
