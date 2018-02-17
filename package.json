@@ -1,0 +1,29 @@
+{
+  "name": "atomic-view-router",
+  "version": "1.0.0",
+  "description": "Express router that defines URL paths based primarily on the views directory structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reykjavikingur/atomic-view-router.git"
+  },
+  "keywords": [
+    "express",
+    "router",
+    "views",
+    "prototype",
+    "atomic"
+  ],
+  "author": "Andrew Strader",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reykjavikingur/atomic-view-router/issues"
+  },
+  "homepage": "https://github.com/reykjavikingur/atomic-view-router#readme",
+  "dependencies": {
+    "promise": "^8.0.1"
+  }
+}
